@@ -5,6 +5,7 @@ const cors = require("cors")
 const morgan = require("morgan")
 
 const categoryRouter = require("./src/resources/category/router")
+const dealRouter = require("./src/resources/deal/router")
 
 const app = express()
 
@@ -20,6 +21,7 @@ app.use(morgan("dev"))
 /* SETUP ROUTES */
 
 app.use("/categories", categoryRouter);
+app.use("/deals", dealRouter)
 
 app.get("*", (req, res) => {
     res.json({ ok: true })
