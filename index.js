@@ -6,6 +6,7 @@ const morgan = require("morgan")
 
 const categoryRouter = require("./src/resources/category/router")
 const dealRouter = require("./src/resources/deal/router")
+const userRouter = require("./src/resources/user/router")
 
 const app = express()
 
@@ -22,6 +23,7 @@ app.use(morgan("dev"))
 
 app.use("/categories", categoryRouter);
 app.use("/deals", dealRouter)
+app.use("/users", userRouter)
 
 app.get("*", (req, res) => {
     res.json({ ok: true })
