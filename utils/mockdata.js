@@ -1,91 +1,115 @@
+let faker = require('faker');
+
 const restaurants = [
     {
         name: "Curry King",
-        address: "326 Old St, London EC1V 9DR"
+        address: "326 Old St, London EC1V 9DR",
+        image: faker.image.food()
     },
     {
         name: "Attendant",
-        address: "74 Great Eastern St, London EC2A 3JL"
+        address: "74 Great Eastern St, London EC2A 3JL",
+        image: faker.image.food()
     },
     {
         name: "Old Street Cafe",
-        address: "36 Old St, London EC1V 9AE"
+        address: "36 Old St, London EC1V 9AE",
+        image: faker.image.food()
     },
     {
         name: "Grind",
-        address: "213 Old St, London EC1V 9NR"
+        address: "213 Old St, London EC1V 9NR",
+        image: faker.image.food()
     },
     {
         name: "Look mum no hands!",
-        address: "49 Old St, London EC1V 9HX"
+        address: "49 Old St, London EC1V 9HX",
+        image: faker.image.food()
     },
     {
         name: "Origin Coffee",
-        address: " 65 Charlotte Rd, London EC2A 3PE"
+        address: " 65 Charlotte Rd, London EC2A 3PE",
+        image: faker.image.food()
     },
     {
         name: "Cafe Arena.",
-        address: "127 City Rd, London EC1V 1JB"
+        address: "127 City Rd, London EC1V 1JB",
+        image: faker.image.food()
     },
     {
         name: "Ozone Coffee Roasters, Shoreditch",
-        address: "11 Leonard St, London EC2A 4AQ"
+        address: "11 Leonard St, London EC2A 4AQ",
+        image: faker.image.food()
     },
     {
         name: "Clear Hearts",
-        address: "326 Old St, London EC1V 9DR"
+        address: "326 Old St, London EC1V 9DR",
+        image: faker.image.food()
     },
     {
         name: "Hermanos Colombian Coffee Roasters",
-        address: "Station Market Stall, Old St, London EC1Y 1BE"
+        address: "Station Market Stall, Old St, London EC1Y 1BE",
+        image: faker.image.food()
     },
     {
         name: "Lennies Sandwich Bar",
-        address: "Imperial Hall, 3-5 Old Street Station, London EC1Y 1BE"
+        address: "Imperial Hall, 3-5 Old Street Station, London EC1Y 1BE",
+        image: faker.image.food()
     },
     {
         name: "Fix 126",
-        address: "Imperial Hall, 3-5 Old Street Station, London EC1Y 1BE"
+        address: "Imperial Hall, 3-5 Old Street Station, London EC1Y 1BE",
+        image: faker.image.food()
     },
     {
         name: "Lennies Sandwich Bar",
-        address: "126 Curtain Rd, London EC2A 3PJ"
+        address: "126 Curtain Rd, London EC2A 3PJ",
+        image: faker.image.food()
     },
     {
         name: "The Fallow Deer Cafe",
-        address: "130 High St, Teddington TW11 8JB"
+        address: "130 High St, Teddington TW11 8JB",
+        image: faker.image.food()
     },
     {
         name: "Jacks Sandwich Bar",
-        address: "Imperial Hall, 3-5 Old Street Station, London EC1Y 1BE"
+        address: "Imperial Hall, 3-5 Old Street Station, London EC1Y 1BE",
+        image: faker.image.food()
     },
     {
         name: "Sidra - Teddington",
-        address: "5 Church Rd, Teddington TW11 8PF"
+        address: "5 Church Rd, Teddington TW11 8PF",
+        image: faker.image.food()
     },
     {
         name: "Lennies Sandwich Bar",
-        address: "Imperial Hall, 6-8 Old Street Station, London EC1Y 1BE"
+        address: "Imperial Hall, 6-8 Old Street Station, London EC1Y 1BE",
+        image: faker.image.food()
     },
     {
         name: "Gosia's Cafe and Deli",
-        address: "52 Broad St, Teddington TW11 8QY"
+        address: "52 Broad St, Teddington TW11 8QY",
+        image: faker.image.food()
     },
     {
         name: "Flying Cloud Cafe",
-        address: "27 Ferry Rd, Teddington TW11 9NN"
+        address: "27 Ferry Rd, Teddington TW11 9NN",
+        image: faker.image.food()
     },
     {
         name: "Milos Cafe",
-        address: "16 High St, Teddington TW11 8EW"
+        address: "16 High St, Teddington TW11 8EW",
+        image: faker.image.food()
     },
     {
         name: "The French Tarte",
-        address: "45 High St, Teddington TW11 8HA"
+        address: "45 High St, Teddington TW11 8HA",
+        image: faker.image.food()
     },
     {
         name: "The Coffee Mill",
-        address: "91 High St, Teddington TW11 8HG"
+        address: "91 High St, Teddington TW11 8HG",
+        image: faker.image.food()
     },
 
 ]
