@@ -10,10 +10,6 @@ const {
 
 async function seed() {
 
-    // const deleteDeals = await dbClient.deal.deleteMany()
-    // const deleteRestuarants = await dbClient.restaurant.deleteMany()
-    // const deleteCategories = await dbClient.category.deleteMany()
-
     for (const restaurant of restaurants) {
         await dbClient.restaurant.create({
             data: restaurant,

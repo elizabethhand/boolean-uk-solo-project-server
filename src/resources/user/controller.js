@@ -28,4 +28,13 @@ const addUser = async (req, res) => {
     }
 };
 
-module.exports = { addUser }
+const getAllUsers = async (req, res) => {
+    try {
+        const users = await user.findMany();
+        res.json({ users });
+    } catch (error) {
+        res.json({ error: error.message });
+    }
+};
+
+module.exports = { addUser, getAllUsers }

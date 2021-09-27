@@ -245,12 +245,7 @@ const deals = [
         name: "Slice of our world famous chocolate cake when you order any sandwich",
         restaurantId: 22,
         price: 6.50
-    },
-    {
-        name: "Buy one get one free on any tapas plate",
-        restaurantId: 23,
-        price: 5.99
-    },
+    }
 ]
 
 module.exports = { restaurants, categories, deals }
